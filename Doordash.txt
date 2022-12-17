@@ -1,0 +1,46 @@
+
+
+Hello All, 
+
+PROJECT :- Delivery Duration Prediction for DoorDash.
+
+Bussiness Problem :
+
+When a consumer places an order on DoorDash,It shows the expected time of delivery. It is very important for DoorDash to get this right, as it has a big impact on consumer experience. Here we are building and evaluating various models to predict the estimated time taken for a delivery.
+
+Contents of Project :-
+
+- Importing Library
+- Loading data
+- Data Preprocessing & Visualization
+- Model Building
+- Model Evaluation
+
+Data Description :-
+
+The attached file historical_data.csv contains a subset of deliveries received at DoorDash in early 2015 in a subset of the cities.
+
+The notebook focuses on the delivery time for orders on the DoorDash Application from data found on Stratscratch.My work in this notebook focused on creating a model post analysis in order to foresay the time an order is going to take to reach a client based on a bunch of features you will learn more about below.
+
+Steps Involved in Model building:- 
+
+- Assigning values to features as X and target as y
+- Split test and training sets
+- Fitting 6 different models(3 linear and basic and 3 ensemble   models) in search for the model with the best mean squared error   and R2 score
+
+ENHANCMENTS IN THE MODEL AFTER UPDATION :-
+
+* The most well performed model was Random Forest with R2 Score of   91% which eariler was 83%.
+
+* The Model Performance increased by 12% for Linear Regression from earlier analysis.
+
+* Aslo tried with other models as well but they underperformed you can see all the outputs in the below code.
+
+Link to the code :-
+
+
+Feel Free to provide suggestions (will love to hear) and try to apply other methods at as well for increasing the accuracy of the model
+
+
+
+
